@@ -1,0 +1,1791 @@
+{
+	"info": {
+		"_postman_id": "4f442ee2-a266-48f3-a7f4-e53d55c2a96b",
+		"name": "LAPR5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Master Data Rede Social Testes",
+			"item": [
+				{
+					"name": "Estados De Humor",
+					"item": [
+						{
+							"name": "GET Estados De Humor Info",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Get Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(JSON.stringify(\r",
+											"[\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"        \"description\": \"Alegre\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"description\": \"Angustiado/Angustiada\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a102\",\r",
+											"        \"description\": \"Esperançoso/Esperançosa\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"        \"description\": \"Medroso/Medrosa\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a104\",\r",
+											"        \"description\": \"Aliviado/Aliviada\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a105\",\r",
+											"        \"description\": \"Desapontado/Desapontada\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a106\",\r",
+											"        \"description\": \"Orgulhoso/Orgulhosa\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a107\",\r",
+											"        \"description\": \"Com Remorsos\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a108\",\r",
+											"        \"description\": \"Grato/Grata\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"0b316e04-454b-4d06-a528-64792b63a109\",\r",
+											"        \"description\": \"Nervoso/Nervosa\"\r",
+											"    }\r",
+											"]\r",
+											")\r",
+											");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/EstadosDeHumor",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"EstadosDeHumor"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Tags",
+					"item": [
+						{
+							"name": "GET Tags Info",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Get Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(JSON.stringify(\r",
+											"[\r",
+											"    {\r",
+											"        \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"        \"nome\": \"isep\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"2b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"nome\": \"informática\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"2b316e04-454b-4d06-a528-64792b63a102\",\r",
+											"        \"nome\": \"nba\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"2b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"        \"nome\": \"futebol\"\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"2b316e04-454b-4d06-a528-64792b63a104\",\r",
+											"        \"nome\": \"lapr5\"\r",
+											"    }\r",
+											"]\r",
+											")\r",
+											");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Tag",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Tag"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Pedidos De Introdução",
+					"item": [
+						{
+							"name": "GET Pedido Introducao No Info",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});\r",
+											"\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoIntroducao/cc425e95-082c-4ba6-9a2b-8b4a93655f17",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoIntroducao",
+										"cc425e95-082c-4ba6-9a2b-8b4a93655f17"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CREATE Pedido Introducao",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const responseJson = pm.response.json();\r",
+											"pm.environment.set(\"introducao_id\", responseJson.id);\r",
+											"\r",
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Post feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"introducao_id\"), \r",
+											"            \"estado\": \"PENDENTE\",\r",
+											"    \"remetente\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"email\": \"fabio@gmail.com\",\r",
+											"        \"username\": \"fabio\",\r",
+											"        \"password\": \"fabio123\"\r",
+											"    },\r",
+											"    \"intermediario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a102\",\r",
+											"        \"email\": \"bruno@gmail.com\",\r",
+											"        \"username\": \"bruno\",\r",
+											"        \"password\": \"bruno123\"\r",
+											"    },\r",
+											"    \"destinatario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"        \"email\": \"diogo@gmail.com\",\r",
+											"        \"username\": \"diogo\",\r",
+											"        \"password\": \"diogo123\"\r",
+											"    },\r",
+											"    \"apresentacao\": \"apresentacao\",\r",
+											"    \"apresentacaoLigacao\": \"apresentacaoLigacao\"\r",
+											"})});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userNameRem\": \"fabio\",\r\n    \"userNameInt\": \"bruno\",\r\n    \"userNameDest\": \"diogo\",\r\n    \"apresentacao\": \"apresentacao\",\r\n    \"apresentacaoLigacao\" : \"apresentacaoLigacao\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoIntroducao",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoIntroducao"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Pedido Introdução CREATE Verificação",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Put feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"introducao_id\"), \r",
+											"            \"estado\": \"PENDENTE\",\r",
+											"    \"remetente\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"email\": \"fabio@gmail.com\",\r",
+											"        \"username\": \"fabio\",\r",
+											"        \"password\": \"fabio123\"\r",
+											"    },\r",
+											"    \"intermediario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a102\",\r",
+											"        \"email\": \"bruno@gmail.com\",\r",
+											"        \"username\": \"bruno\",\r",
+											"        \"password\": \"bruno123\"\r",
+											"    },\r",
+											"    \"destinatario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"        \"email\": \"diogo@gmail.com\",\r",
+											"        \"username\": \"diogo\",\r",
+											"        \"password\": \"diogo123\"\r",
+											"    },\r",
+											"    \"apresentacao\": \"apresentacao\",\r",
+											"    \"apresentacaoLigacao\": \"apresentacaoLigacao\"\r",
+											"})\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoIntroducao/{{introducao_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoIntroducao",
+										"{{introducao_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PUT Pedido Introducao",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Put feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"introducao_id\"), \r",
+											"        \"estado\": \"APROVADO\",\r",
+											"    \"remetente\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"email\": \"fabio@gmail.com\",\r",
+											"        \"username\": \"fabio\",\r",
+											"        \"password\": \"fabio123\"\r",
+											"    },\r",
+											"    \"intermediario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a102\",\r",
+											"        \"email\": \"bruno@gmail.com\",\r",
+											"        \"username\": \"bruno\",\r",
+											"        \"password\": \"bruno123\"\r",
+											"    },\r",
+											"    \"destinatario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"        \"email\": \"diogo@gmail.com\",\r",
+											"        \"username\": \"diogo\",\r",
+											"        \"password\": \"diogo123\"\r",
+											"    },\r",
+											"    \"apresentacao\": \"apresentacao\",\r",
+											"    \"apresentacaoLigacao\": \"apresentacaoLigacao\"\r",
+											"})\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"estadoPedidoIntroducao\":\"APROVADO\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoIntroducao/{{introducao_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoIntroducao",
+										"{{introducao_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Pedido Introducao Verificao",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Put feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"introducao_id\"), \r",
+											"        \"estado\": \"APROVADO\",\r",
+											"    \"remetente\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"email\": \"fabio@gmail.com\",\r",
+											"        \"username\": \"fabio\",\r",
+											"        \"password\": \"fabio123\"\r",
+											"    },\r",
+											"    \"intermediario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a102\",\r",
+											"        \"email\": \"bruno@gmail.com\",\r",
+											"        \"username\": \"bruno\",\r",
+											"        \"password\": \"bruno123\"\r",
+											"    },\r",
+											"    \"destinatario\": {\r",
+											"        \"id\": \"1b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"        \"email\": \"diogo@gmail.com\",\r",
+											"        \"username\": \"diogo\",\r",
+											"        \"password\": \"diogo123\"\r",
+											"    },\r",
+											"    \"apresentacao\": \"apresentacao\",\r",
+											"    \"apresentacaoLigacao\": \"apresentacaoLigacao\"\r",
+											"})\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoIntroducao/{{introducao_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoIntroducao",
+										"{{introducao_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Pedidos De Ligação",
+					"item": [
+						{
+							"name": "GET Pedido Ligação No Info",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {\r",
+											"    pm.response.to.have.status(404);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoLigacao/6b316e04-454b-4d06-a528-64792b63a104",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoLigacao",
+										"6b316e04-454b-4d06-a528-64792b63a104"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CREATE Pedido Ligação",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const responseJson = pm.response.json();\r",
+											"pm.environment.set(\"ligacao_id\", responseJson.id);\r",
+											"\r",
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Post feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"ligacao_id\"), \r",
+											"        \"estado\":\"Pendente\",\r",
+											"        \"remetente\":\"1b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"        \"destinatario\":\"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"texto\":\"texto\"});\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"remetente\": \"1b316e04-454b-4d06-a528-64792b63a100\",\r\n    \"destinatario\": \"1b316e04-454b-4d06-a528-64792b63a101\",\r\n    \"texto\": \"texto\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoLigacao",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoLigacao"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Pedido Ligação",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"const responseJson = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Get feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"ligacao_id\"), \r",
+											"        \"estado\":\"Pendente\",\r",
+											"        \"remetente\":\"1b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"        \"destinatario\":\"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"texto\":\"texto\"});\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoLigacao/{{ligacao_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoLigacao",
+										"{{ligacao_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PUT Pedido Ligação",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Put feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"ligacao_id\"), \r",
+											"        \"estado\":\"Aceite\",\r",
+											"        \"remetente\":\"1b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"        \"destinatario\":\"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"texto\":\"texto\"});\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"estado\":\"Aceite\",\r\n    \"remetente\": \"1b316e04-454b-4d06-a528-64792b63a100\",\r\n    \"destinatario\": \"1b316e04-454b-4d06-a528-64792b63a101\",\r\n    \"texto\": \"texto\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoLigacao/{{ligacao_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoLigacao",
+										"{{ligacao_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Pedido Ligação Verificar Put",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"const responseJson = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Get feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"ligacao_id\"), \r",
+											"        \"estado\":\"Aceite\",\r",
+											"        \"remetente\":\"1b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"        \"destinatario\":\"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"        \"texto\":\"texto\"});\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/PedidoLigacao/{{ligacao_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"PedidoLigacao",
+										"{{ligacao_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Ligação",
+					"item": [
+						{
+							"name": "GET Ligações",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"const responseJson = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Get feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body(\"[]\");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Ligacao/user=3b316e04-422b-4d06-a528-64779d27a705",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Ligacao",
+										"user=3b316e04-422b-4d06-a528-64779d27a705"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Ligação por ID User",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Get feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body(JSON.stringify([{\r",
+											"        \"id\": \"3b316e04-422b-4d06-a528-64773b27a106\",\r",
+											"        \"principal\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a102\"\r",
+											"        },\r",
+											"        \"secundario\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a101\"\r",
+											"        },\r",
+											"        \"forcaLigacao\": 72,\r",
+											"        \"forçaRelacao\": 0,\r",
+											"        \"listaTags\": [\r",
+											"            {\r",
+											"                \"id\": \"2b316e04-454b-4d06-a528-64792b63a104\",\r",
+											"                \"nome\": \"lapr5\"\r",
+											"            }\r",
+											"        ]\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"3b316e04-454b-4d06-a528-64773b27a106\",\r",
+											"        \"principal\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a101\"\r",
+											"        },\r",
+											"        \"secundario\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a102\"\r",
+											"        },\r",
+											"        \"forcaLigacao\": 12,\r",
+											"        \"forçaRelacao\": 0,\r",
+											"        \"listaTags\": [\r",
+											"            {\r",
+											"                \"id\": \"2b316e04-454b-4d06-a528-64792b63a104\",\r",
+											"                \"nome\": \"lapr5\"\r",
+											"            }\r",
+											"        ]\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"3b316e04-454b-4d06-a528-64773b63a102\",\r",
+											"        \"principal\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a102\"\r",
+											"        },\r",
+											"        \"secundario\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a103\"\r",
+											"        },\r",
+											"        \"forcaLigacao\": 30,\r",
+											"        \"forçaRelacao\": 0,\r",
+											"        \"listaTags\": []\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": \"3b316e04-454b-4d06-a528-64773b63a103\",\r",
+											"        \"principal\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a103\"\r",
+											"        },\r",
+											"        \"secundario\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a102\"\r",
+											"        },\r",
+											"        \"forcaLigacao\": 40,\r",
+											"        \"forçaRelacao\": 0,\r",
+											"        \"listaTags\": []\r",
+											"    }]));\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Ligacao/user=1b316e04-454b-4d06-a528-64792b63a102",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Ligacao",
+										"user=1b316e04-454b-4d06-a528-64792b63a102"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PUT Ligação",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Put feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"ligacao2_id\"), \r",
+											"\"principal\": {\r",
+											"        \"value\": \"1b316e04-454b-4d06-a528-64792b63a104\"\r",
+											"    },\r",
+											"    \"secundario\": {\r",
+											"        \"value\": \"1b316e04-454b-4d06-a528-64792b63a100\"\r",
+											"    },\r",
+											"    \"forcaLigacao\": 30,\r",
+											"    \"forçaRelacao\": 0,\r",
+											"    \"listaTags\": [\r",
+											"        {\r",
+											"            \"id\": \"2b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"            \"nome\": \"futebol\"\r",
+											"        }\r",
+											"    ]\r",
+											"});\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"forcaLigacao\": {\r\n        \"forcaLigacao\": 30        \r\n    },\r\n    \"listaTags\": [\r\n            {\r\n                \"nome\": \"futebol\"\r\n            }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Ligacao/{{ligacao2_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Ligacao",
+										"{{ligacao2_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Ligação por ID Ligação",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Put feito com sucesso\", function () {\r",
+											"    pm.response.to.have.body({\r",
+											"        \"id\":pm.environment.get(\"ligacao2_id\"), \r",
+											"\"principal\": {\r",
+											"        \"value\": \"1b316e04-454b-4d06-a528-64792b63a104\"\r",
+											"    },\r",
+											"    \"secundario\": {\r",
+											"        \"value\": \"1b316e04-454b-4d06-a528-64792b63a100\"\r",
+											"    },\r",
+											"    \"forcaLigacao\": 30,\r",
+											"    \"forçaRelacao\": 0,\r",
+											"    \"listaTags\": [\r",
+											"        {\r",
+											"            \"id\": \"2b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"            \"nome\": \"futebol\"\r",
+											"        }\r",
+											"    ]\r",
+											"});\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Ligacao/{{ligacao2_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Ligacao",
+										"{{ligacao2_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Perfil",
+					"item": [
+						{
+							"name": "Editar Estado de Humor",
+							"item": [
+								{
+									"name": "GET Perfil",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"const responseJson = pm.response.json();\r",
+													"\r",
+													"pm.test(\"GET Feito Com Sucesso\", function () {\r",
+													"    pm.response.to.have.body(\r",
+													"{\r",
+													"        \"id\": pm.environment.get(\"perfil1_id\"),\r",
+													"        \"userId\": {\r",
+													"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a100\"\r",
+													"        },\r",
+													"        \"estadoDeHumorId\": {\r",
+													"            \"value\": \"0b316e04-454b-4d06-a528-64792b63a100\"\r",
+													"        },\r",
+													"        \"perfilDataDeNascimento\": {\r",
+													"            \"data\": \"07/08/2001\"\r",
+													"        },\r",
+													"        \"perfilFacebook\": {\r",
+													"            \"linkFacebook\": \"https://www.facebook.com/GJordao12/\"\r",
+													"        },\r",
+													"        \"perfilLinkedin\": {\r",
+													"            \"linkLinkedin\": \"https://www.linkedin.com/in/gonçalo-jordão-7a1535121/\"\r",
+													"        },\r",
+													"        \"perfilNome\": {\r",
+													"            \"nomePerfil\": \"Gonçalo Jordão\"\r",
+													"        },\r",
+													"        \"perfilNTelefone\": {\r",
+													"            \"nTelefono\": \"+351931111111\"\r",
+													"        },\r",
+													"        \"listaTags\": [\r",
+													"            {\r",
+													"                \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+													"                \"nome\": \"isep\"\r",
+													"            }\r",
+													"        ]\r",
+													"}\r",
+													")});\r",
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://10.9.20.122:5001/api/Perfil/{{perfil1_id}}",
+											"protocol": "https",
+											"host": [
+												"10",
+												"9",
+												"20",
+												"122"
+											],
+											"port": "5001",
+											"path": [
+												"api",
+												"Perfil",
+												"{{perfil1_id}}"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "PUT Perfil (Novo Estado De Humor)",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"PUT Feito Com Sucesso\", function () {\r",
+													"    pm.response.to.have.body(\r",
+													"{\r",
+													"    \"id\": pm.environment.get(\"perfil1_id\"),\r",
+													"    \"userId\": {\r",
+													"        \"value\": \"1b316e04-454b-4d06-a528-64792b63a100\"\r",
+													"    },\r",
+													"    \"estadoDeHumorId\": {\r",
+													"        \"value\": pm.environment.get(\"estadoDeHumor_id\")\r",
+													"    },\r",
+													"    \"perfilDataDeNascimento\": {\r",
+													"        \"data\": \"07/08/2001\"\r",
+													"    },\r",
+													"    \"perfilFacebook\": {\r",
+													"        \"linkFacebook\": \"https://www.facebook.com/GJordao12/\"\r",
+													"    },\r",
+													"    \"perfilLinkedin\": {\r",
+													"        \"linkLinkedin\": \"https://www.linkedin.com/in/gonçalo-jordão-7a1535121/\"\r",
+													"    },\r",
+													"    \"perfilNome\": {\r",
+													"        \"nomePerfil\": \"Gonçalo Jordão\"\r",
+													"    },\r",
+													"    \"perfilNTelefone\": {\r",
+													"        \"nTelefono\": \"+351931111111\"\r",
+													"    },\r",
+													"    \"listaTags\": [\r",
+													"        {\r",
+													"            \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+													"            \"nome\": \"isep\"\r",
+													"        }\r",
+													"    ]\r",
+													"}\r",
+													");\r",
+													"});"
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "    {\r\n        \"id\": \"0b316e04-454b-4d06-a528-64792b63a104\",\r\n        \"description\": \"Aliviado/Aliviada\"\r\n    }",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://10.9.20.122:5001/api/Perfil/{{perfil1_id}}/EditarEstadoDeHumor",
+											"protocol": "https",
+											"host": [
+												"10",
+												"9",
+												"20",
+												"122"
+											],
+											"port": "5001",
+											"path": [
+												"api",
+												"Perfil",
+												"{{perfil1_id}}",
+												"EditarEstadoDeHumor"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET Perfil Verifica PUT",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"GET Feito Com Sucesso\", function () {\r",
+													"    pm.response.to.have.body(\r",
+													"{\r",
+													"    \"id\": pm.environment.get(\"perfil1_id\"),\r",
+													"    \"userId\": {\r",
+													"        \"value\": \"1b316e04-454b-4d06-a528-64792b63a100\"\r",
+													"    },\r",
+													"    \"estadoDeHumorId\": {\r",
+													"        \"value\": pm.environment.get(\"estadoDeHumor_id\")\r",
+													"    },\r",
+													"    \"perfilDataDeNascimento\": {\r",
+													"        \"data\": \"07/08/2001\"\r",
+													"    },\r",
+													"    \"perfilFacebook\": {\r",
+													"        \"linkFacebook\": \"https://www.facebook.com/GJordao12/\"\r",
+													"    },\r",
+													"    \"perfilLinkedin\": {\r",
+													"        \"linkLinkedin\": \"https://www.linkedin.com/in/gonçalo-jordão-7a1535121/\"\r",
+													"    },\r",
+													"    \"perfilNome\": {\r",
+													"        \"nomePerfil\": \"Gonçalo Jordão\"\r",
+													"    },\r",
+													"    \"perfilNTelefone\": {\r",
+													"        \"nTelefono\": \"+351931111111\"\r",
+													"    },\r",
+													"    \"listaTags\": [\r",
+													"        {\r",
+													"            \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+													"            \"nome\": \"isep\"\r",
+													"        }\r",
+													"    ]\r",
+													"}\r",
+													");\r",
+													"});"
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://10.9.20.122:5001/api/Perfil/{{perfil1_id}}",
+											"protocol": "https",
+											"host": [
+												"10",
+												"9",
+												"20",
+												"122"
+											],
+											"port": "5001",
+											"path": [
+												"api",
+												"Perfil",
+												"{{perfil1_id}}"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "GET Perfil",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"const responseJson = pm.response.json();\r",
+											"\r",
+											"pm.test(\"GET Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(\r",
+											"{\r",
+											"        \"id\": pm.environment.get(\"perfil2_id\"),\r",
+											"        \"userId\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a101\"\r",
+											"        },\r",
+											"        \"estadoDeHumorId\": {\r",
+											"            \"value\": \"0b316e04-454b-4d06-a528-64792b63a105\"\r",
+											"        },\r",
+											"        \"perfilDataDeNascimento\": {\r",
+											"            \"data\": \"06/02/1998\"\r",
+											"        },\r",
+											"        \"perfilFacebook\": {\r",
+											"            \"linkFacebook\": \"https://www.facebook.com/fabio.fernandes.1826\"\r",
+											"        },\r",
+											"        \"perfilLinkedin\": {\r",
+											"            \"linkLinkedin\": \"https://www.linkedin.com/in/fabioalexandrefernandes/\"\r",
+											"        },\r",
+											"        \"perfilNome\": {\r",
+											"            \"nomePerfil\": \"Fábio Fernandes\"\r",
+											"        },\r",
+											"        \"perfilNTelefone\": {\r",
+											"            \"nTelefono\": \"+351932222222\"\r",
+											"        },\r",
+											"        \"listaTags\": [\r",
+											"            {\r",
+											"                \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                \"nome\": \"isep\"\r",
+											"            }\r",
+											"        ]\r",
+											"}\r",
+											")});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Perfil/{{perfil2_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Perfil",
+										"{{perfil2_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PUT Perfil",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"PUT Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(\r",
+											"{\r",
+											"        \"id\": pm.environment.get(\"perfil2_id\"),\r",
+											"        \"userId\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a101\"\r",
+											"        },\r",
+											"        \"estadoDeHumorId\": {\r",
+											"            \"value\": \"0b316e04-454b-4d06-a528-64792b63a100\"\r",
+											"        },\r",
+											"        \"perfilDataDeNascimento\": {\r",
+											"            \"data\": \"08/08/2001\"\r",
+											"        },\r",
+											"        \"perfilFacebook\": {\r",
+											"            \"linkFacebook\": \"https://www.facebook.com/GJordao12/\"\r",
+											"        },\r",
+											"        \"perfilLinkedin\": {\r",
+											"            \"linkLinkedin\": \"https://www.linkedin.com/in/gonçalo-jordão-7a1535121/\"\r",
+											"        },\r",
+											"        \"perfilNome\": {\r",
+											"            \"nomePerfil\": \"Gonçalo Jordão\"\r",
+											"        },\r",
+											"        \"perfilNTelefone\": {\r",
+											"            \"nTelefono\": \"+351932222222\"\r",
+											"        },\r",
+											"        \"listaTags\": [\r",
+											"            {\r",
+											"                \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                \"nome\": \"isep\"\r",
+											"            }\r",
+											"        ]\r",
+											"}\r",
+											");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"estadoDeHumor\": {\r\n            \"Id\": \"0b316e04-454b-4d06-a528-64792b63a100\",\r\n            \"Description\": \"Alegre\"\r\n        },\r\n        \"perfilDataDeNascimento\": \"08/08/2001\",\r\n        \"perfilFacebook\": \"https://www.facebook.com/GJordao12/\",\r\n        \"perfilLinkedin\": \"https://www.linkedin.com/in/gonçalo-jordão-7a1535121/\",\r\n        \"perfilNome\": \"Gonçalo Jordão\",\r\n        \"perfilNTelefone\": \"+351932222222\",\r\n        \"listaTags\": [\r\n            {\r\n                \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r\n                \"nome\": \"isep\"\r\n            }\r\n        ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Perfil/{{perfil2_id}}/EditarPerfil",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Perfil",
+										"{{perfil2_id}}",
+										"EditarPerfil"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Perfil Verifica PUT",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"const responseJson = pm.response.json();\r",
+											"\r",
+											"pm.test(\"GET Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(\r",
+											"{\r",
+											"        \"id\": pm.environment.get(\"perfil2_id\"),\r",
+											"        \"userId\": {\r",
+											"            \"value\": \"1b316e04-454b-4d06-a528-64792b63a101\"\r",
+											"        },\r",
+											"        \"estadoDeHumorId\": {\r",
+											"            \"value\": \"0b316e04-454b-4d06-a528-64792b63a100\"\r",
+											"        },\r",
+											"        \"perfilDataDeNascimento\": {\r",
+											"            \"data\": \"08/08/2001\"\r",
+											"        },\r",
+											"        \"perfilFacebook\": {\r",
+											"            \"linkFacebook\": \"https://www.facebook.com/GJordao12/\"\r",
+											"        },\r",
+											"        \"perfilLinkedin\": {\r",
+											"            \"linkLinkedin\": \"https://www.linkedin.com/in/gonçalo-jordão-7a1535121/\"\r",
+											"        },\r",
+											"        \"perfilNome\": {\r",
+											"            \"nomePerfil\": \"Gonçalo Jordão\"\r",
+											"        },\r",
+											"        \"perfilNTelefone\": {\r",
+											"            \"nTelefono\": \"+351932222222\"\r",
+											"        },\r",
+											"        \"listaTags\": [\r",
+											"            {\r",
+											"                \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                \"nome\": \"isep\"\r",
+											"            }\r",
+											"        ]\r",
+											"}\r",
+											")});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/Perfil/{{perfil2_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"Perfil",
+										"{{perfil2_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Rede De Conexões",
+					"item": [
+						{
+							"name": "GET Rede De Conexões",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"const responseJson = pm.response.json();\r",
+											"\r",
+											"pm.test(\"GET Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(\r",
+											"{\r",
+											"    \"1\": [\r",
+											"        {\r",
+											"            \"id\": {\r",
+											"                \"value\": \"3b316e04-454b-4d06-a528-64773b27a104\"\r",
+											"            },\r",
+											"            \"principal\": {\r",
+											"                \"value\": \"1b316e04-454b-4d06-a528-64792b63a100\"\r",
+											"            },\r",
+											"            \"secundario\": {\r",
+											"                \"id\": \"1b316e04-454b-4d06-a528-64792b63a104\",\r",
+											"                \"email\": \"alejandro@gmail.com\",\r",
+											"                \"username\": \"alejandro\",\r",
+											"                \"password\": null\r",
+											"            },\r",
+											"            \"listaTagsSecundario\": [\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                    \"nome\": \"ISEP\"\r",
+											"                }\r",
+											"            ],\r",
+											"            \"forcaLigacao\": 10,\r",
+											"            \"forçaRelacao\": 0,\r",
+											"            \"listaTags\": []\r",
+											"        },\r",
+											"        {\r",
+											"            \"id\": {\r",
+											"                \"value\": \"3b316e04-454b-4d06-a528-64773b63a101\"\r",
+											"            },\r",
+											"            \"principal\": {\r",
+											"                \"value\": \"1b316e04-454b-4d06-a528-64792b63a100\"\r",
+											"            },\r",
+											"            \"secundario\": {\r",
+											"                \"id\": \"1b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"                \"email\": \"fabio@gmail.com\",\r",
+											"                \"username\": \"fabio\",\r",
+											"                \"password\": null\r",
+											"            },\r",
+											"            \"listaTagsSecundario\": [\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                    \"nome\": \"ISEP\"\r",
+											"                }\r",
+											"            ],\r",
+											"            \"forcaLigacao\": 10,\r",
+											"            \"forçaRelacao\": 0,\r",
+											"            \"listaTags\": [\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                    \"nome\": \"ISEP\"\r",
+											"                },\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a101\",\r",
+											"                    \"nome\": \"Informática\"\r",
+											"                }\r",
+											"            ]\r",
+											"        }\r",
+											"    ],\r",
+											"    \"2\": [\r",
+											"        {\r",
+											"            \"id\": {\r",
+											"                \"value\": \"3b316e04-454b-4d06-a528-64773b27a107\"\r",
+											"            },\r",
+											"            \"principal\": {\r",
+											"                \"value\": \"1b316e04-454b-4d06-a528-64792b63a104\"\r",
+											"            },\r",
+											"            \"secundario\": {\r",
+											"                \"id\": \"1b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"                \"email\": \"diogo@gmail.com\",\r",
+											"                \"username\": \"diogo\",\r",
+											"                \"password\": null\r",
+											"            },\r",
+											"            \"listaTagsSecundario\": [\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                    \"nome\": \"ISEP\"\r",
+											"                }\r",
+											"            ],\r",
+											"            \"forcaLigacao\": 40,\r",
+											"            \"forçaRelacao\": 0,\r",
+											"            \"listaTags\": []\r",
+											"        },\r",
+											"        {\r",
+											"            \"id\": {\r",
+											"                \"value\": \"3b316e04-454b-4d06-a528-64773b27a106\"\r",
+											"            },\r",
+											"            \"principal\": {\r",
+											"                \"value\": \"1b316e04-454b-4d06-a528-64792b63a101\"\r",
+											"            },\r",
+											"            \"secundario\": {\r",
+											"                \"id\": \"1b316e04-454b-4d06-a528-64792b63a102\",\r",
+											"                \"email\": \"bruno@gmail.com\",\r",
+											"                \"username\": \"bruno\",\r",
+											"                \"password\": null\r",
+											"            },\r",
+											"            \"listaTagsSecundario\": [\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                    \"nome\": \"ISEP\"\r",
+											"                }\r",
+											"            ],\r",
+											"            \"forcaLigacao\": 12,\r",
+											"            \"forçaRelacao\": 0,\r",
+											"            \"listaTags\": [\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a104\",\r",
+											"                    \"nome\": \"LAPR5\"\r",
+											"                }\r",
+											"            ]\r",
+											"        }\r",
+											"    ],\r",
+											"    \"3\": [\r",
+											"        {\r",
+											"            \"id\": {\r",
+											"                \"value\": \"3b316e04-454b-4d06-a528-64773b63a102\"\r",
+											"            },\r",
+											"            \"principal\": {\r",
+											"                \"value\": \"1b316e04-454b-4d06-a528-64792b63a102\"\r",
+											"            },\r",
+											"            \"secundario\": {\r",
+											"                \"id\": \"1b316e04-454b-4d06-a528-64792b63a103\",\r",
+											"                \"email\": \"diogo@gmail.com\",\r",
+											"                \"username\": \"diogo\",\r",
+											"                \"password\": null\r",
+											"            },\r",
+											"            \"listaTagsSecundario\": [\r",
+											"                {\r",
+											"                    \"id\": \"2b316e04-454b-4d06-a528-64792b63a100\",\r",
+											"                    \"nome\": \"ISEP\"\r",
+											"                }\r",
+											"            ],\r",
+											"            \"forcaLigacao\": 30,\r",
+											"            \"forçaRelacao\": 0,\r",
+											"            \"listaTags\": []\r",
+											"        }\r",
+											"    ]\r",
+											"}\r",
+											")});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/RedesConexoes/1b316e04-454b-4d06-a528-64792b63a100/niveis=0",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"RedesConexoes",
+										"1b316e04-454b-4d06-a528-64792b63a100",
+										"niveis=0"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Utilizadores",
+					"item": [
+						{
+							"name": "CREATE Utilizador",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const responseJson = pm.response.json();\r",
+											"pm.environment.set(\"utilizador_id\", responseJson.id);\r",
+											"\r",
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Post Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(\r",
+											"{\r",
+											"    \"id\": pm.environment.get(\"utilizador_id\"),\r",
+											"    \"email\": \"teste@gmail.com\",\r",
+											"    \"username\": \"teste\",\r",
+											"    \"password\": \"teste123\"\r",
+											"}\r",
+											");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"Email\": \"teste@gmail.com\",\r\n        \"Username\": \"teste\",\r\n        \"Password\": \"teste123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/User",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"User"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Utilizador",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"const responseJson = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Get Feito Com Sucesso\", function () {\r",
+											"    pm.response.to.have.body(\r",
+											"{\r",
+											"    \"id\": pm.environment.get(\"utilizador_id\"),\r",
+											"    \"email\": \"teste@gmail.com\",\r",
+											"    \"username\": \"teste\",\r",
+											"    \"password\": \"teste123\"\r",
+											"}\r",
+											");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://10.9.20.122:5001/api/User/{{utilizador_id}}",
+									"protocol": "https",
+									"host": [
+										"10",
+										"9",
+										"20",
+										"122"
+									],
+									"port": "5001",
+									"path": [
+										"api",
+										"User",
+										"{{utilizador_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
