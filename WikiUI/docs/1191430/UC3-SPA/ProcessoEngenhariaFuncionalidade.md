@@ -1,4 +1,4 @@
-# UC12 - Editar relacionamento com tags e força de ligação
+# UC3 - Editar relacionamento com tags e força de ligação
 ---
 
 # Nível 1 - Vista Lógica
