@@ -6,21 +6,21 @@
 
 ## Modules
 
-### Master Data Rede - BackEnd
+### Master Data Rede - BackEnd (Master Data Rede Social)
 * **Languages and Tools:** C#, .NET, MySQL and REST API
 * [Code](MasterDataRede)
 * [Documentation](WikiMasterDataRede)
 
-### AI - BackEnd
+### AI - BackEnd (IA)
 * **Languages and Tools:** Prolog and REST API
 * [Code and Reports](AI)
 
-### Master Data Posts - BackEnd
+### Master Data Posts - BackEnd (Master Data Rede Posts)
 * **Languages and Tools:** NodeJs, TypeScript, MongoDB and REST API
 * [Code](MasterDataPosts)
 * [Documentation](WikiMasterDataPosts)
 
-### UI - FrontEnd
+### UI - FrontEnd (Vizualizacao)
 * **Languages and Tools:** ReactJS, HTML, CSS, JavaScript, ThreeJS and REST API
 * [Code](UI)
 * [Documentation](WikiUI)
