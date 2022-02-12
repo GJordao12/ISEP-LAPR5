@@ -17,8 +17,8 @@
 
 ### MasterDataPosts - BackEnd (Master Data Rede Posts)
 * **Languages and Tools:** NodeJs, TypeScript, MongoDB and REST API
-* [Code](MasterDataPosts)
-* [Documentation](WikiMasterDataPosts)
+* [Code](MasterDataRedePosts)
+* [Documentation](WikiMasterDataRedePosts)
 
 ### UI - FrontEnd (Vizualizacao)
 * **Languages and Tools:** ReactJS, HTML, CSS, JavaScript, ThreeJS and REST API
