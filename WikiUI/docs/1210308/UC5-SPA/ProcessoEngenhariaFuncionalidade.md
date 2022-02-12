@@ -1,4 +1,4 @@
-# UC6 - Editar perfil própio
+# UC5 - Editar perfil própio
 =================================================================
 
 # Design Arquitetural
