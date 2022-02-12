@@ -5,7 +5,7 @@
 		- [Vista Lógica](#vista-lógica)
 		- [Vista de Cenários](#vista-de-cenários)
 	- [Nível 2](#nível-2)
-		- [Vista Lógica](#vista-lógica-2)
+		- [Vista Lógica](#vista-lógica-1)
 		- [Vista de Processos](#vista-de-processos-2)
 		- [Vista de Implementação](#vista-de-implementação-2)
 		- [Vista Física](#vista-física)
