@@ -26,4 +26,4 @@
 * [Documentation](WikiUI)
 
 ### View
-> 
+> <img src="https://github.com/GJordao12/ISEP-LAPR5/blob/main/modules.png" />
