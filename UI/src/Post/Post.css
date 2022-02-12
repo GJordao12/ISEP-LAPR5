@@ -1,0 +1,43 @@
+.centerPost {
+    text-align: center;
+}
+
+.PageTitlePost{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.post {
+    padding-top: 20px;
+}
+
+.textPost{
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+.tagsPost{
+    width: 40%;
+}
+
+
+.PublicButton{
+    width: 40%;
+}
+
+.PublicButtonDiv{
+    padding-top: 20px;
+    padding-bottom: 10%;
+}
+
+.postsBackground{
+    background-image: url('../pexels-prateek-katyal-2694434.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:90vh;
+}

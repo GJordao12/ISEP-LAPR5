@@ -1,0 +1,19 @@
+.titulo {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.containerTamanho{
+    display: table-column;
+    vertical-align: center;
+    horiz-align: center;
+    margin-bottom: 13%;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+}

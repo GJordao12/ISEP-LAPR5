@@ -1,0 +1,14 @@
+.btn-yes {
+    color : green;
+    size: 5px;
+}
+
+.btn-no {
+    color : red;
+    margin-left : 30px;
+    size: 5px;
+}
+
+.div-buttons {
+    width : 100%;
+}

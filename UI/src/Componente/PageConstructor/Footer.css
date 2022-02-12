@@ -1,0 +1,14 @@
+
+footer {
+    background: transparent;
+    color: white;
+    text-align: center;
+
+    bottom: 0;
+
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    left: 0;
+
+}

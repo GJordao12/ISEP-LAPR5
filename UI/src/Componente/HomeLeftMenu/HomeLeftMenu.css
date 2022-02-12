@@ -1,0 +1,23 @@
+.center {
+  text-align: center;
+}
+
+li:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.letter {
+  font-size: 25px;
+}
+
+ul li a {
+  text-decoration: none;
+  color:white;
+  display: block;
+  padding: 20px
+}
+
+.corAzul:hover {
+  background-color: #0d6efd ;
+  cursor: pointer;
+}

@@ -1,0 +1,80 @@
+.networkDimension {
+    display:flex;
+    background-image: url('../nasa-Q1p7bh3SHj8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.networkDimensionPresentation{
+    text-align: center;
+    width: 70%;
+}
+
+.pageTitleNetworkDimension{
+    margin-top: 2%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.networkDimensionInfo{
+    padding-top: 25%;
+    padding-left: 43%;
+}
+
+.counter{
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.counter:before{
+    content: '';
+    background: linear-gradient(to right bottom,#0d6efd,#0d6efd);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    z-index: -1;
+}
+.counter .counter-icon{
+    background-color: #fff;
+    font-size: 35px;
+    line-height: 82px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4) inset;
+    border-radius: 50%;
+}
+.counter .counter-value{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 50px;
+    display: block;
+    padding-top: 15px;
+}
+.counter h3{
+    color: #0d6efd;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}

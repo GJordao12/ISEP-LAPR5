@@ -1,0 +1,18 @@
+.tabelaTagsUsers {
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 23%;
+    margin-bottom: 2%;
+}
+
+.tabelaTagsUsersTitle {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.rodapeTagsFromUsers{
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:132%;
+}

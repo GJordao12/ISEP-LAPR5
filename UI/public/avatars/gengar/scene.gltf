@@ -1,0 +1,385 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        0.9543840885162354,
+        0.49236491322517395,
+        1.3240020275115967
+      ],
+      "min": [
+        -0.9543840885162354,
+        -0.061315976083278656,
+        0.8615495562553406
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1296,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        0.7093689441680908,
+        0.40669676661491394,
+        0.9755414724349976
+      ],
+      "min": [
+        -0.7093689441680908,
+        0.02468991093337536,
+        0.7022578716278076
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        0.8638890981674194,
+        0.839181125164032
+      ],
+      "min": [
+        0.5650727152824402,
+        0.5321953296661377
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 384,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2592,
+      "componentType": 5126,
+      "count": 95,
+      "max": [
+        1.110858678817749,
+        0.12390279769897461,
+        1.3289674520492554
+      ],
+      "min": [
+        -1.110858678817749,
+        -0.7778624892234802,
+        0.7608285546302795
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3732,
+      "componentType": 5126,
+      "count": 95,
+      "max": [
+        0.861761212348938,
+        0.15347936749458313,
+        -0.48354092240333557
+      ],
+      "min": [
+        -0.861761212348938,
+        -0.02896244451403618,
+        -0.9999862909317017
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 864,
+      "componentType": 5126,
+      "count": 95,
+      "max": [
+        0.4985381066799164,
+        0.46355029940605164
+      ],
+      "min": [
+        0.08809513598680496,
+        0.13712315261363983
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1536,
+      "componentType": 5125,
+      "count": 384,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4872,
+      "componentType": 5126,
+      "count": 2502,
+      "max": [
+        2.2292520999908447,
+        2.2801437377929688,
+        1.3810310363769531
+      ],
+      "min": [
+        -2.2292520999908447,
+        -2.4014933109283447,
+        -2.0056192874908447
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 34896,
+      "componentType": 5126,
+      "count": 2502,
+      "max": [
+        0.9999980926513672,
+        0.9998096227645874,
+        0.9991635084152222
+      ],
+      "min": [
+        -0.9981237649917603,
+        -0.9991395473480225,
+        -0.9999927282333374
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1624,
+      "componentType": 5126,
+      "count": 2502,
+      "max": [
+        0.6544981002807617,
+        0.8421096801757813
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3072,
+      "componentType": 5125,
+      "count": 12960,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "code_6122 (https://sketchfab.com/code_6122)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/gengar-pokemon-b24c17c4cdb74b15a15fab7363c2b5bb",
+      "title": "Gengar (Pokemon)"
+    },
+    "generator": "Sketchfab-11.19.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 54912,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21640,
+      "byteOffset": 54912,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64920,
+      "byteOffset": 76552,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 141472,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/textura_2_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "textura_2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9963916016743722
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ojos_textura 2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "boca_textura 2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "cuerpo.001_textura 2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "gengar.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "ojos"
+    },
+    {
+      "mesh": 0,
+      "name": "ojos_textura 2_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "boca"
+    },
+    {
+      "mesh": 1,
+      "name": "boca_textura 2_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "cuerpo.001"
+    },
+    {
+      "mesh": 2,
+      "name": "cuerpo.001_textura 2_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

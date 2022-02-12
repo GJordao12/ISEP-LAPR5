@@ -1,0 +1,30 @@
+.botao{
+    padding-right: 110px;
+}
+
+.texto{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #400406;
+}
+
+.button1{
+    width: 100%;
+}
+
+.button2{
+    width: 100%;
+}
+
+.pedidoIntroducaoPendenteBackground{
+    background-image: url('../pexels-prateek-katyal-2694434.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:90vh;
+}

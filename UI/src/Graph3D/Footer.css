@@ -1,0 +1,11 @@
+.copyRightFooter{
+    background-color: transparent;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    color: white;
+}
+

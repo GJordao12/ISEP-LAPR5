@@ -1,0 +1,19 @@
+.titulo {
+    text-align: center;
+}
+
+ul{
+    padding-left: 6%;
+}
+
+.editarRelacionamentoBackground{
+    background-image: url('../pexels-prateek-katyal-2694434.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:90vh;
+}

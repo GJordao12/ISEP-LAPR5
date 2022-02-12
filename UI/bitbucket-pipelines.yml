@@ -1,0 +1,31 @@
+#  Template NodeJS Web Application for Azure Web App service
+
+#  This template allows you to deploy your NodeJS web application to Azure Web App Service.
+#  The workflow allows running tests, code linting and security scans on feature branches (as well as master).
+#  The NodeJS application will be validated after the code is merged to master and deployment can be triggered manually.
+
+# Prerequisites: $$AZURE_APP_ID, $AZURE_PASSWORD, $AZURE_TENANT_ID, $AZURE_RESOURCE_GROUP, $AZURE_APP_NAME setup in the Deployment variables.
+# For advanced cases, please, follow examples from the pipe's README https://bitbucket.org/microsoft/azure-web-apps-deploy/src/1.0.3/README.md
+
+
+image: node:16
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+        #  runs-on: self.hosted
+          name: Build and Test
+          caches:
+            - node
+          script:
+            - cd visualizacao
+            - npm install
+            - npm test
+      # - step:
+          # name: Code linting
+          # script:
+            # - cd visualizacao
+            # - npm install eslint
+          # caches:
+            # - node

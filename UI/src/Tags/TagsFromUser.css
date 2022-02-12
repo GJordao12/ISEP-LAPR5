@@ -1,0 +1,18 @@
+.tabelaTagsUser {
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 31%;
+    margin-bottom: 2%;
+}
+.tagsFromUserBackGround {
+    display:flex;
+    background-image: url('../pexels-prateek-katyal-2694434.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:90vh;
+}

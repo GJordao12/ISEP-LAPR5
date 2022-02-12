@@ -1,0 +1,45 @@
+.tabelaNumeros {
+    margin-top: 0.5%;
+    margin-left: 36%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    color: #0c0c0c;
+}
+
+.tabElem {
+    width: 20%;
+}
+
+.tabTags {
+    width: 20%;
+}
+
+.Button {
+    width: 10%;
+}
+
+.ButtonDiv {
+    margin-top: 0.5%
+}
+
+.Cards {
+    margin-top: -1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.CardGroup {
+    margin-left: 31%;
+}
+
+.CardTags {
+    margin-left: 5%;
+}
+
+.SizeGroupDiv {
+    margin-top: 1%;
+    margin-left: 41.5%;
+}

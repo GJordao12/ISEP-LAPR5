@@ -1,0 +1,71 @@
+body{margin-top:20px;}
+
+.post-list {
+    position: relative;
+    padding: 5px 0;
+}
+
+.post-list .picture {
+    max-width: 400px;
+    overflow: hidden;
+    height: auto;
+    border-radius: 6px;
+}
+
+.post-list .label{
+    font-weight:normal;
+}
+
+.post-list .picture {
+    max-width: 210px;
+}
+
+.post-list .picture img {
+    width: 100%;
+}
+
+.post-list h4 {
+    font-size: 20px;
+}
+
+.post-list h5 {
+    color: #888;
+}
+
+.post-list p {
+    float: left;
+}
+
+.post-list:after {
+    height: 1px;
+    background: #EEEEEE;
+    width: 83.3333%;
+    bottom: 0;
+    right: 0;
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.post-list .btn-download {
+    margin-top: 45px;
+}
+
+.btn-info {
+    color: #1084FF;
+    border-color: #269abc;
+}
+
+.btn-round {
+    border-width: 1px;
+    border-radius: 30px !important;
+    opacity: 0.79;
+    padding: 9px 18px;
+}
+.btn {
+    border-width: 2px;
+    background-color: rgba(0,0,0,0);
+    font-weight: 400;
+    opacity: 0.8;
+    padding: 7px 16px;
+}

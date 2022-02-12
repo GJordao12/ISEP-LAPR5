@@ -1,0 +1,28 @@
+
+
+
+.botao{
+    padding-right: 110px;
+}
+
+.texto{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.copyRight {
+    background-color: #dbb587;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+

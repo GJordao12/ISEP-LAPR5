@@ -1,0 +1,46 @@
+.pagePaths {
+   text-align: center;
+}
+
+.PathsSpace{
+   align-content: center;
+   padding-top: 0.3%;
+}
+
+.pageHeaderPaths {
+   margin-top: 4%;
+   font-size: 25px;
+   text-align: center;
+}
+
+.possibleUsersSpace {
+   padding-left: 2%;
+   display: inline-block;
+}
+
+.possiblePathsSpace {
+   display: inline-block;
+}
+
+.valueSpace{
+   padding-left: 0;
+   width: 16%;
+   display: inline-block;
+}
+
+.textSafest{
+   padding-left: 4px;
+   display: inline-block;
+}
+
+.btnPaths{
+   padding-top: 0.1%;
+}
+
+.pathText2 {
+   padding-top: 0.1%;
+}
+
+.pathText{
+   font-size: 40px;
+}

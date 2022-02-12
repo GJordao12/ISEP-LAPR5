@@ -1,0 +1,22 @@
+.editMoodSpace{
+    margin: auto;
+    width: 50%;
+}
+
+.pageHeaderHumor {
+    font-size: 25px;
+    text-align: center;
+}
+
+.mooodTableBackground{
+    background-image: url('../pexels-prateek-katyal-2694434.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:90vh;
+}
+

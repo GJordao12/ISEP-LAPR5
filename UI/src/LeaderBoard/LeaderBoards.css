@@ -1,0 +1,30 @@
+.primeira_tabela{
+    width: 40%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    display: inline-block;
+}
+
+.table-header{
+    background-color: #0c0c0c;
+    color: white;
+}
+.coluna{
+    background-color: #0c0c0c;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.segunda_tabela{
+    width: 40%;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    display: inline-block;
+}
+
+
+
