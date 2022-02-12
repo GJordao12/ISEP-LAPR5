@@ -1,4 +1,4 @@
-# UC12 - Aprovar ou desaprovar pedido de introdução
+# UC12 - Editar relacionamento com tags e força de ligação
 ---
 
 # Nível 1 - Vista Lógica
