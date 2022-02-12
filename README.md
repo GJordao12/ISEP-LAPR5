@@ -15,7 +15,7 @@
 * **Languages and Tools:** Prolog and REST API
 * [Code and Reports](AI)
 
-### MasterDataPosts - BackEnd (Master Data Rede Posts)
+### MasterDataRedePosts - BackEnd (Master Data Rede Posts)
 * **Languages and Tools:** NodeJs, TypeScript, MongoDB and REST API
 * [Code](MasterDataRedePosts)
 * [Documentation](WikiMasterDataRedePosts)
