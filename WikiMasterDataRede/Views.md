@@ -56,7 +56,6 @@ Para modelar/representar visualmente, tanto o que foi implementado como as ideia
 ![Nivel2-VL](docs/ProjetoGeral/Arquitetura/Nivel2/Nivel2-VistaLogica.svg)
 
 ### Vista de Processos
-##### Destaque para a UC 12 (Aceitar / Desaprovar pedidos de introdução):
 
 ![Nivel2-VP](docs/1191430/UC12/Nivel2-VistaDeProcesso.svg)
 
@@ -73,8 +72,6 @@ Para modelar/representar visualmente, tanto o que foi implementado como as ideia
 ![Nivel3-VL](docs/ProjetoGeral/Arquitetura/Nivel3/Nivel3-VistaLogica.svg)
 
 ### Vista de Processos
-
-##### Destaque para a UC 12 (Aceitar / Desaprovar pedidos de introdução):
 
 ![Nivel3-VP](docs/1191430/UC12/Nivel3-VistaProcesso.svg)
 
