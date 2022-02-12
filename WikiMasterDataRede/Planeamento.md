@@ -33,6 +33,6 @@ A distribuição de requisitos/funcionalidades ao longo do período de desenvolv
 |  **A**  | [UC33 - Aceitar ou rejeitar a introdução](docs/1210308/UC33/ProcessoEngenhariaFuncionalidade.md)                                                                                                |
 |  **A**  | [UC35 - Obter Lista de Pedidos de Ligação Pendentes](docs/1190523/UC35/ProcessoEngenhariaFuncionalidade.md)                                                                                     |
 |  **B**  | [RGPD - Tratamento de Dados](docs/ProjetoGeral/RGPD/RGPD.xlsx)                                                                                                                   |
-|  **B**  | [RGPD - Termos de Aceitação](docs/ProjetoGeral/RGPD/LAPR5-RGPD.docx)                                                                                                                   |
+|  **B**  | [RGPD - Termos de Aceitação](docs/ProjetoGeral/RGPD/LAPR5-RGPD.pdf)                                                                                                                   |
 
 **NOTA:** Clicando na **UC** será reencaminhado para a **Documentação** da mesma.
