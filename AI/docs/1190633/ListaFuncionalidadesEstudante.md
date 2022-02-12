@@ -5,5 +5,5 @@
 
 | Sprint  | Funcionalidade                                                                                                                                                                      |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  **B**  | [Determinar O Caminho Mais Seguro](AlgoritmoBestFirst/ProcessoEngenhariaFuncionalidade.md)                                                                                           |
-|  **C**  | [Algoritmo Best First](CaminhoMaisSeguro/BestFirst.pl)                                                                                           |
+|  **B**  | [Determinar O Caminho Mais Seguro](CaminhoMaisSeguro/ProcessoEngenhariaFuncionalidade.md)                                                                                           |
+|  **C**  | [Algoritmo Best First](AlgoritmoBestFirst/BestFirst.pl)                                                                                           |
