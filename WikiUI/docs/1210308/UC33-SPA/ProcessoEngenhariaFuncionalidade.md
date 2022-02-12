@@ -1,4 +1,4 @@
-# UC6 - Aceitar ou rejeitar a introducao
+# UC33 - Aceitar ou rejeitar a introducao
 =================================================================
 
 # Design Arquitetural
