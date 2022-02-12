@@ -19,7 +19,7 @@ A distribuição de requisitos/funcionalidades ao longo do período de desenvolv
 | Sprint  |Funcionalidade                                                                                                                                    |
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 |  **B**  | [Relatório](docs/ProjetoGeral/SprintB/Relatorio_3DL_G67.pdf)                                                                                     |
-|  **B**  | [Relatório](docs/ProjetoGeral/SprintC/Relatorio_3DL_G67.pdf)                                                                                                                 |
-|  **B**  | [Relatório](docs/ProjetoGeral/SprintD/Relatorio_3DL_G67.pdf)                                                                                               |
+|  **C**  | [Relatório](docs/ProjetoGeral/SprintC/Relatorio_3DL_G67.pdf)                                                                                     |
+|  **D**  | [Relatório](docs/ProjetoGeral/SprintD/Relatorio_3DL_G67.pdf)                                                                                     |
 
 **NOTA:** Clicando na **UC** será reencaminhado para a **Documentação** da mesma.
