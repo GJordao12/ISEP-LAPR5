@@ -10,9 +10,9 @@
 		- [Vista de Implementação](#vista-de-implementação-1)
 		- [Vista Física](#vista-física)
 	- [Nível 3 (MDR)](#nível-3-mdr)
-		- [Vista Lógica](#vista-lógica-3)
-		- [Vista de Processos](#vista-de-processos-3)
-		- [Vista de Implementação](#vista-de-implementação-3)
+		- [Vista Lógica](#vista-lógica-2)
+		- [Vista de Processos](#vista-de-processos-1)
+		- [Vista de Implementação](#vista-de-implementação-1)
 	- [Lista de Funcionalidades](Planeamento.md)
 
 ## Introduction
